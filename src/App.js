@@ -38,7 +38,7 @@ export default function App() {
       <button onClick={result}>Search</button>
       <h4>Definition:</h4>
       <div>
-        {!definition && text && <p>Word not found in the dictionary.</p>}
+        {!definition && text && <div>Word not found in the dictionary.</div>}
         {definition && <p>{definition}</p>}
       </div>
     </div>
